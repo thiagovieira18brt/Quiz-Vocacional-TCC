@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-	<style>
-		html {
-            scroll-behavior: smooth;
-		}
-	</style>
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,205 +21,211 @@
 </head>
 <body>
   <div class="navigation-wrap bg-light start-header start-style">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<nav class="navbar navbar-expand-md navbar-light">
-             <a class="navbar-brand" href="#" target="_blank">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="#" target="_blank">
               <img src="../../../assets/logo2.png" alt="Logo of site">
-            </a>	
+            </a>
             <h3 class="logo-style">Quiz Vocacional</h3>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-                        </button>
-						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav ml-auto py-4 py-md-0">
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="#bemvindo">Home</a>
-								</li>
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="#sobre">Sobre</a>
-								</li>
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="#guia">Guia</a>
-								</li>
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="#rodape">Contato</a>
-								</li>
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" data-toggle="modal" data-target="#myModal1">Entre</a>
-								</li>
-								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" data-toggle="modal" data-target="#myModal">Cadastre-se</a>
-								</li>
-							</ul>
-						</div>
-					</nav>		
-				</div>
-			</div>
-		</div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto py-4 py-md-0">
+                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                  <a class="nav-link" href="#bemvindo">Home</a>
+                </li>
+                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                  <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                  <a class="nav-link" href="#guia">Guia</a>
+                </li>
+                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                  <a class="nav-link" href="#rodape">Contato</a>
+                </li>
+                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                  <a class="nav-link" data-toggle="modal" data-target="#myModal1">Entre</a>
+                </li>
+                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                  <a class="nav-link" data-toggle="modal" data-target="#myModal">Cadastre-se</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
   </div>
   <!-- Modal Cadastro -->
   <div class="modal" id="myModal">
     <div class="modal-dialog">
-        <div class="modal-content">
-      
-  <!-- Cabeça Modal -->
-  <div class="modal-header">
-    <h4 class="modal-title">Cadastrar</h4>
-    <button type="button" class="close" data-dismiss="modal">&times;</button>
-  </div>      
-  <!-- Modal Corpo -->
-    <div class="modal-body">
-        <div class="container">
-            <form action="/action_page.php">
-                <div class="form-group">
-                     <label for="email">Email:</label>
-                     <input type="email" class="form-control" id="email" placeholder="" name="email">
-                </div>
-                <div class="form-group">
-                    <label for="pwd">Senha:</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="" name="pswd">
-                </div>
-                <div class="form-group">
-                    <label for="pwd">Confirmar Senha:</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="" name="pswd">
-                </div>
-                <div class="form-group form-check">
-                </div>
-            </form>
+      <div class="modal-content">
+        <!-- Cabeça Modal -->
+        <div class="modal-header">
+          <h4 class="modal-title">Cadastrar</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
+        <!-- Modal Corpo -->
+        <div class="modal-body">
+          <div class="container">
+            <form action="/action_page.php">
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="" name="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Senha:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="" name="pswd">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Confirmar Senha:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="" name="pswd">
+              </div>
+              <div class="form-group form-check">
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Cadastrar</button>
+        </div>
+      </div>
     </div>
-  <!-- Modal footer -->
-  <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Cadastrar</button>
-  </div>
-  </div>
-  </div>
   </div>
   <!--Topo da Página-->
-
-<!-- Modal Entrar -->
+  <!-- Modal Entrar -->
   <div class="modal" id="myModal1">
     <div class="modal-dialog">
-        <div class="modal-content">
-      
-  <!-- Cabeça Modal -->
-  <div class="modal-header">
-    <h4 class="modal-title">Entrar</h4>
-    <button type="button" class="close" data-dismiss="modal">&times;</button>
-  </div>      
-  <!-- Modal Corpo -->
-    <div class="modal-body">
-        <div class="container">
-            <form action="/action_page.php">
-                <div class="form-group">
-                     <label for="email">Email:</label>
-                     <input type="email" class="form-control" id="email" placeholder="" name="email">
-                </div>
-                <div class="form-group">
-                    <label for="pwd">Senha:</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="" name="pswd">
-                </div>
-                <div class="form-group form-check">
-                </div>
-            </form>
+      <div class="modal-content">
+        <!-- Cabeça Modal -->
+        <div class="modal-header">
+          <h4 class="modal-title">Entrar</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
+        <!-- Modal Corpo -->
+        <div class="modal-body">
+          <div class="container">
+            <form action="/action_page.php">
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="" name="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Senha:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="" name="pswd">
+              </div>
+              <div class="form-group form-check">
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Entrar</button>
+        </div>
+      </div>
     </div>
-  <!-- Modal footer -->
-  <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Entrar</button>
-  </div>
-  </div>
-  </div>
   </div>
   <!--Topo da Página-->
-  <div class="parallax"></div>
-    <section class="nome">
-	    <container>
-		    <center>
-		        <img class="icones" src="../../../assets/duvida.png">
-		        <img class="icones" src="../../../assets/investigando.png">
-		        <img class="icones" src="../../../assets/solucao.png">
-		    </center>
-		    <h1 class="titulo">Quiz Vocacional</h1>  
-		</container>
-    </section>
+  <div class="parallax">
+  </div>
+  <section id="header-text">
+    <center>
+      <h1 class="titulo">Quiz Vocacional</h1>
+      <img class="icones" src="../../../assets/duvida.png">
+      <img class="icones" src="../../../assets/investigando.png">
+      <img class="icones" src="../../../assets/solucao.png">
+    </center>
+  </section>
   <!--BEM VINDO-->
-  <section class="bemvindo" id="bemvindo"
-	  <container>
-	    <div class="col-12" style="padding-top: 120px;">
-		    <h1 class="heading-1">Bem-Vindo</h1>
-		    <p class="p-1">	
-		    Bem-vindo ao site quiz  vocacional ! aqui você vai ter uma<br>
-		    ideia de quais áreas profissionais mais combinam com você<br>
-		    para chegar uma conclusão do que ingressar ,concursar<br>
-		    ou algo do tipo.<br></p>
-		    <img class="img-1" src="../../../assets/pesquisa.png">
-	    </div>
-	  </container>	
-  </section> 
-  <!--SOBRE-->   
+  <section class="bemvindo" id="bemvindo">
+    <div class="row alinhamento">
+      <div class="col-md-4">
+        <h1 class="heading-1">Bem-Vindo</h1>
+        <p class="p-1">
+          Bem-vindo ao site quiz  vocacional! aqui<br>
+          você vai ter uma ideia de quais áreas<br>
+          profissionais mais combinam com<br>
+          você para chegar uma conclusão do<br>
+          que ingressar concursar ou algo do tipo.</p>
+      </div>
+      <div class="col-md-4">
+        <img class="img-1" src="../../../assets/pesquisa.png">
+      </div>
+    </div>
+  </section>
+  <!--SOBRE-->
   <section class="sobre" id="sobre">
-	  <container>
-		<h1 class="heading-2" style="margin-left: 550px;">Sobre-Nós</h1>
-		<div class="parallax" style="height:300px;">
-			<p class="p-2">
-				O Quis vocacional são perguntas com alternativas para escolha, as perguntas são de<br>
-				 suas Competências, gostos, personalidade, características, etc. tudo para<br>
-				  conseguirmos um resultado Positivo para sua experiência! a diferença dos tradicionais<br>
-				   e que oferecemos um quiz eficaz e que leve menos tempo para conclui-o sendo assim<br>
-				   mais objetivo. A metodologia usada no quis é a inteligências múltiplas de Howard<br>
-				   Gardner que por meios das suas resposta descobre o tipo de inteligência sua e formula<br>
-				   indicações das áreas de profissão em si.<br>
-			</p>
-		</div>
-	  </container>
+    <container>
+      <h1 class="heading-2">Sobre-Nós</h1>
+      <div class="parallax" style="height: 300px;">
+        <p class="p-2">
+          O Quis vocacional são perguntas com alternativas para escolha, as perguntas são de<br>
+          suas Competências, gostos, personalidade, características, etc. tudo para<br>
+          conseguirmos um resultado Positivo para sua experiência! a diferença dos tradicionais<br>
+          e que oferecemos um quiz eficaz e que leve menos tempo para conclui-o sendo assim<br>
+          mais objetivo. A metodologia usada no quis é a inteligências múltiplas de Howard<br>
+          Gardner que por meios das suas resposta descobre o tipo de inteligência sua e formula<br>
+          indicações das áreas de profissão em si.<br>
+        </p>
+      </div>
+    </container>
   </section>
   <!--GUIA-->
   <section class="guia" id="guia">
-	  <container>
-		  <h1 class="heading-1">Guia</h1>
-		  <p class="p-1"> 
+    <container>
+      <div class="row alinhamento">
+        <div class="col-md-4" style="margin-top: 50px;">
+          <h1 class="heading-1">Guia</h1>
+          <p class="p-1">
             Aqui no Guia vamos te informar tudo que<br>
-			precisa saber antes de fazer o quiz, com dicas<br>
-			e funcinalidade do quis em geral .
-		  </p>
-		  <img class="img-2" src="../../../assets/doc.png">
+            precisa saber antes de fazer o quiz, com dicas<br>
+            e funcinalidade do quis em geral .
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-1" src="../../../assets/doc.png">
+        </div>
+      </div>
 
-		  <p class="p-dica">
-			<strong class="dicas">Dica#1:</strong> 
-			<stong><b>Seja sincero e honesto com você mesmo!</b><br></stong>
-			Se não ser fica complicado formular indicações de areas profissionais mais valida<br>
-			para voce pois forneceu informações que não condizem com o resultado final sendo<br>
-			uma experiencia frustante.<br>
-		  </p>
+      <p class="p-dica" style="margin-top: 100px;">
+        <strong class="dicas">Dica#1:</strong>
+        <stong><b>Seja sincero e honesto com você mesmo!</b><br></stong>
+        Se não ser fica complicado formular indicações de areas profissionais mais valida<br>
+        para voce pois forneceu informações que não condizem com o resultado final sendo<br>
+        uma experiencia frustante.<br>
+      </p>
 
-		  <p class="p-dica">
-			<strong class="dicas">Dica#2:</strong> 
-			<stong><b>Escolhar o melhor ambiente e faça o quiz com atenção e foco.</b><br></stong>
-			É importante ter um lugar onde voce consiga ter total atenção para fazer<br>
-			o quiz pois é um momento só seu ali nessa situação.<br>
-		  </p>
+      <p class="p-dica">
+        <strong class="dicas">Dica#2:</strong>
+        <stong><b>Escolhar o melhor ambiente e faça o quiz com atenção e foco.</b><br></stong>
+        É importante ter um lugar onde voce consiga ter total atenção para fazer<br>
+        o quiz pois é um momento só seu ali nessa situação.<br>
+      </p>
 
-		  <p class="p-dica">
-			<strong class="dicas">Dica#3:</strong>
-			<stong><b>Pesquise e aprenda mais de você mesmo!</b><br></stong>
-			Após fazer o quis e ver os resultados, com base neles pesquise o que ele te forneceu ali<br>
-			de indicações de areas de profissão parater mais informação a respeito ajudando na escolha.<br>
-			e bom também estudar mais sobre você mesmo como: seus gostos, competencias, incompetencias, etc.<br>
-			sendo mais facil, melhor e mais pratico no processode escolher sua profissão ou algo do tipo.<br>
-		  </p>
-		  
-		  <p class="p-obs">
-			<strong class="dicas">Observação:</strong><br>
-			Caso tenha alguma deficiência fisica ou mental que impossibilite de usufruir do conteúdo<br>
-			inteiro do site recomendamos que tenha uma pessoa te auxiliando para poder então aproveitar o site em si.
-			aproveite então que chegou até aqui, já bem informado<b>
-			<br>e faça então o quiz logo no botão aqui em baixo e claro, e que tenha uma boa experiencia!</b><br>
-		  </p>
+      <p class="p-dica">
+        <strong class="dicas">Dica#3:</strong>
+        <stong><b>Pesquise e aprenda mais de você mesmo!</b><br></stong>
+        Após fazer o quis e ver os resultados, com base neles pesquise o que ele te forneceu ali<br>
+        de indicações de areas de profissão parater mais informação a respeito ajudando na escolha.<br>
+        e bom também estudar mais sobre você mesmo como: seus gostos, competencias, incompetencias, etc.<br>
+        sendo mais facil, melhor e mais pratico no processode escolher sua profissão ou algo do tipo.<br>
+      </p>
 
-	  </container>
+      <p class="p-obs">
+        <strong class="dicas">Observação:</strong><br>
+        Caso tenha alguma deficiência fisica ou mental que impossibilite de usufruir do conteúdo<br>
+        inteiro do site recomendamos que tenha uma pessoa te auxiliando para poder então aproveitar o site em si.
+        aproveite então que chegou até aqui, já bem informado<b>
+          <br>e faça então o quiz logo no botão aqui em baixo e claro, e que tenha uma boa experiencia!</b><br>
+      </p>
+
+    </container>
   </section>
   <!--MODAL-QUIZ-->
   <div class="modal" id="modalQuiz">
@@ -259,27 +265,31 @@
     </div>
   </div>
   <!--QUIZ-->
-  <section class="botão-quiz">
-	  <container>
-		  <h1 class="titulo-quiz">Faça ja o nosso quiz!</h1>
-		  <a href="#" class="button w-button" data-toggle="modal" data-target="#modalQuiz">INICIAR QUIZ</a>
-		  <img class="img-botão" src="../../../assets/analisando.png">
-	  </container>
-  </section>
+  <div class="botão-quiz">
+    <container>
+      <h1 class="titulo-quiz">Faça ja o nosso quiz!</h1>
+      <a href="#" class="button w-button" data-toggle="modal" data-target="#modalQuiz">INICIAR QUIZ</a>
+      <img class="img-botão" src="../../../assets/analisando.png">
+    </container>
+  </div>
   <!--CONTATO/RODAPÉ-->
   <footer class="rodapé" id="rodape">
   </footer>
-  <container> 
-	<h3 class="h-rodapé">Contato</h3>
-	<h6 class="h-rodapé-2">Email: xxxxxxxxxxxxxx@xxxx.xxx</h6>
-	<section class="icones-posição">
-		<ul class="social-icons">
-			<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>  
-			<li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-			<li><a class="whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
-		  </ul>
-	 </section>
+  <container>
+    <h3 class="h-rodapé">Contato</h3>
+    <h6 class="h-rodapé-2">Email: xxxxxxxxxxxxxx@xxxx.xxx</h6>
+    <section class="icones-posição">
+      <ul class="social-icons">
+        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a class="whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
+      </ul>
+    </section>
   </container>
+  <h4 class="h-rodapé-3"> |  Mapa do Site</h4>
+  <h6 class="h-rodapé-4">Bem Vindo<br>Sobre<br>Guia<br>Quiz<br>Contato<br></h6>
+  <h4 class="h-rodapé-5">|  Localização</h4>
+  <h6 class="h-rodapé-6">Barretos<br>São Paulo<br>Brasil.</h6>
   <!--PARCIAL-->
   <footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

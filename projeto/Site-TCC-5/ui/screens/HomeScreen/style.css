@@ -30,16 +30,20 @@ body {
 }
 /*home*/
 .bemvindo{
-	margin-top:150px;
+	padding-top: 120px;
+}
+.alinhamento {
+	justify-content: center;
+	margin: 0 auto;
 }
 /*sobre*/
 .sobre{
 	margin-top:150px;
+	text-align: center;
 }
 /*guia*/
 .guia{
-	margin-top:400px;
-	margin-left:630px;
+	margin-top:150px;
 	height:1200px;
 }
 /*conteudo da parte do dicas do guia*/
@@ -53,64 +57,177 @@ body {
 }
 .p-dica{
 	font-weight: 500;
-	size:15px;
-	height:20px;
 	color: #545454;
-	text-align:left;
-	margin-top:150px;
-	margin-bottom:10px;
-	margin-left:-300px;
-	margin-right:57px;
-	padding-right:100px;
+	text-align:center;
+	margin: 50px 50px 10px 50px
 }
 /*conteudo do observação*/
 .p-obs{
 	font-weight: 500;
-	size:15px;
-	height:20px;
 	color: #545454;
 	text-align:left;
-	margin-top:150px;
-	margin-bottom:10px;
-	margin-left:-300px;
-	margin-right:57px;
-	padding-right:100px;
-	text-align: justify;
+	text-align: center;
+	margin: 50px 50px 10px 50px
 }
 .heading-1{
 	text-shadow: -2px 2px 2px #9b9b9b;
 	font-weight:600;
-	margin-left:10%;
+	font-size: 200%;
 	margin-bottom:12px;
 }
 .heading-2{
 	text-shadow: -2px 2px 2px #9b9b9b;
-	font-weight:600;
-	margin-left:550px;
-	margin-bottom:12px;
+	font-weight: 600;
+	margin-bottom: 12px;
 }
 .p-1{
 	font-weight:600;
-	size:20px;
-	height:20px;
 	color:#545454;
-	margin-left: 10%; 
-	margin-right: 10%;
+	word-break: keep-all;
 }
-.p-2{
+.p-2 {
 	text-align:center;
 	color:white;
 	size:20px;
 	height:20px;
 	font-weight: 600;
 }
-.img-1{
+.img-1 {
 	width:500px;
 	height:auto;
 	max-width:100%;
-	margin-left:650px;
-	margin-top:-200px;
 }
+/* 0 até 480px vai usar o css que tem dentro */
+@media screen and (max-width: 910px) {
+	.img-1{
+		width:350px;
+		height:auto;
+		max-width:100%;
+	}
+	.p-1{
+		font-weight:600;
+		color:#545454;
+		margin-bottom:30px;
+
+	}
+	.p-2{
+		text-align:center;
+		margin-top:-50px;
+		color:white;
+		size:10px;
+		height:10px;
+		font-weight: 600;
+	}
+	.guia{
+		margin-top:150px;
+		height:1200px;
+	}
+	.p-1{
+		font-weight:600;
+		color:#545454;
+	}
+	.img-2{
+		width:500px;
+		height:auto;
+		margin-left:20px;
+	}
+	/*botão do quiz*/
+    .botão-quiz{
+	text-align: center;
+	align-items: center;
+	margin: 100px 50px -100px 50px;
+    }
+    .button {
+    width: 200px;
+    height: auto;
+	margin-top:0px;
+    background-color: rgba(255, 133, 33, 0.8);
+    box-shadow: 0 1px 10px 1px #f19447;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    font-weight: 600;
+	text-align: center;	
+    }
+    .w-button {
+    display: inline-block;
+    padding: 9px 15px;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+	border-radius: 0;
+	margin: 100px -50px 100px 50px;
+    }
+    .titulo-quiz{
+	text-align: center;
+	color:#545454;
+	font-weight: 900;
+	margin: -100px 50px -10px 50px;
+    }
+    .img-botão{
+	width: 450px;
+	max-width: 500;
+	margin: 100px 50px -10px 50px;
+	}
+	/*RODAPÉ RESPONSIVO*/
+	.rodapé{
+		background-color:#545454;
+		height:250px;
+		width: auto;
+	}
+	.h-rodapé{
+		font-weight: 600;
+		size:20px;
+		height:44px;
+		margin-top:-220px;
+		text-align: left;
+		color: white;
+		background-color: #545454;
+	}
+	.h-rodapé-2{
+		font-weight: 600;
+		size:20px;
+		height:44px;
+		text-align: left;
+		color: white;
+		background-color: #545454;
+	}
+	.h-rodapé-3{
+		font-weight: 600;
+		size: 20px;
+		height:40px;
+		text-align: right;
+		color: white;
+		background-color: #545454;
+	}
+	.h-rodapé-4{
+		font-weight: 600;
+		size:20px;
+		height:44px;
+		text-align: right;
+		color:white;
+		background-color:#545454;
+	}
+	
+	.h-rodapé-5{
+		font-weight: 600;
+		size: 20px;
+		height:40px;
+		text-align: right;
+		color: white;
+		background-color: #545454;
+	}
+	.h-rodapé-6{
+		font-weight: 600;
+		size:20px;
+		height:44px;
+		text-align: right;
+		color:white;
+		background-color:#545454;
+	}
+}
+
 .img-2{
 	width:500px;
 	height:auto;
@@ -123,11 +240,8 @@ body {
 	height:40px;
 	max-width:100%;
 	margin-right:15px;
-	margin-top:-650px;
 }
 .titulo{
-	margin-top: -420px;
-    margin-left: 500px;
     font-family: Poppins, sans-serif;
     color:white;
     font-weight: 700;
@@ -135,6 +249,9 @@ body {
     text-decoration-line: underline;
     text-decoration-style: initial;
 	text-decoration-color: initial;
+}
+#header-text {
+	margin: -400px 0 400px 0;
 }
 .rodapé{
 	background-color:#545454;
@@ -162,15 +279,59 @@ body {
 	background-color: #545454;
 	margin-left:150px;
 }
+.h-rodapé-3{
+	font-weight: 600;
+	size: 20px;
+	height:40px;
+	margin-top:-165px;
+	margin-right:100px;
+	text-align: right;
+	color: white;
+	background-color: #545454;
+}
+.h-rodapé-4{
+	font-weight: 600;
+	size:20px;
+	height:44px;
+	margin-top:10px;
+	margin-right:100px;
+	text-align: right;
+	color:white;
+	background-color:#545454;
+}
+
+.h-rodapé-5{
+	font-weight: 600;
+	size: 20px;
+	height:40px;
+	margin-top:-102px;
+	margin-right:270px;
+	text-align: right;
+	color: white;
+	background-color: #545454;
+}
+.h-rodapé-6{
+	font-weight: 600;
+	size:20px;
+	height:44px;
+	margin-top:10px;
+	margin-right:270px;
+	text-align: right;
+	color:white;
+	background-color:#545454;
+}
+
 /*botão do quiz*/
 .botão-quiz{
-	height:600px;
+	text-align: center;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 400px;
 }
 .button {
     width: 200px;
     height: auto;
 	margin-top:0px;
-    margin-left: 285px;
     background-color: rgba(255, 133, 33, 0.8);
     box-shadow: 0 1px 10px 1px #f19447;
     font-family: Poppins, sans-serif;
@@ -187,22 +348,18 @@ body {
     text-decoration: none;
     cursor: pointer;
 	border-radius: 0;
+	margin: 100px -50px 100px 150px;
 }
 .titulo-quiz{
-	size: 30px;
-	height: 20px;
-	text-align:left;
+	text-align: center;
 	color:#545454;
 	font-weight: 900;
-	margin-left:170px;
-	margin-top:100px;
-	margin-bottom:-100px;
+	margin: 100px 50px -100px 50px;
 }
 .img-botão{
-	width:500px;
-	height: auto;
-	max-width:100%;
-	margin-left:170px;
+	width: 450px;
+	max-width: 500;
+	margin:100px 50px -10px 50px;
 }
 
 /*icones redes sociais animado*/
@@ -231,6 +388,11 @@ body {
 	.site-footer .copyright-text,.site-footer .social-icons {
 	  text-align: center
 	}
+	.img-botão{
+		width: 300px;
+		max-width: 300;
+	}
+	
   }
   .social-icons {
 	padding-left: 0;
@@ -335,9 +497,6 @@ body {
 	border: none;
 	padding-right: 0;
 }
-.navbar-toggler:active, .navbar-toggler:focus {
-	outline: none;
-}
 .navbar-light .navbar-toggler-icon {
 	width: 24px;
 	height: 17px;
@@ -422,6 +581,9 @@ body {
 		border: none;
 		background-color: var(--black-color);
 	}
+	.alinhamento {
+		text-align: center;
+	}
 }
 
 /* PARALLAX */
@@ -433,5 +595,5 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
