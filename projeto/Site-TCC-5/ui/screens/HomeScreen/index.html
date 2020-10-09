@@ -5,6 +5,7 @@
     scroll-behavior: smooth;
   }
 </style>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +14,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="./style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet icon" href="../../../assets/font-awesome/css/font-awesome.min.css">
 </head>
+
 <body>
   <div class="navigation-wrap bg-light start-header start-style">
     <div class="container">
@@ -132,55 +133,66 @@
     </div>
   </div>
   <!--Topo da Página-->
-  <div class="parallax">
+  <div class="parallax-header">
+    <section id="header-text">
+      <div class="text-center">
+        <h1 class="titulo">Quiz Vocacional</h1>
+        <img class="icones" src="../../../assets/duvida.png">
+        <img class="icones" src="../../../assets/investigando.png">
+        <img class="icones" src="../../../assets/solucao.png">
+      </div>
+    </section>
   </div>
-  <section id="header-text">
-    <center>
-      <h1 class="titulo">Quiz Vocacional</h1>
-      <img class="icones" src="../../../assets/duvida.png">
-      <img class="icones" src="../../../assets/investigando.png">
-      <img class="icones" src="../../../assets/solucao.png">
-    </center>
-  </section>
   <!--BEM VINDO-->
   <section class="bemvindo" id="bemvindo">
-    <div class="row alinhamento">
-      <div class="col-md-4">
-        <h1 class="heading-1">Bem-Vindo</h1>
-        <p class="p-1">
-          Bem-vindo ao site quiz  vocacional! aqui<br>
-          você vai ter uma ideia de quais áreas<br>
-          profissionais mais combinam com<br>
-          você para chegar uma conclusão do<br>
-          que ingressar concursar ou algo do tipo.</p>
-      </div>
-      <div class="col-md-4">
-        <img class="img-1" src="../../../assets/pesquisa.png">
+    <div class="container">
+      <div class="row alinhamento">
+        <div class="col-md-6">
+          <h1 class="heading-1">Bem-Vindo</h1>
+          <p class="p-1">
+            Bem-vindo ao site quiz  vocacional! aqui<br>
+            você vai ter uma ideia de quais áreas<br>
+            profissionais mais combinam com<br>
+            você para chegar uma conclusão do<br>
+            que ingressar concursar ou algo do tipo.</p>
+        </div>
+        <div class="col-md-6">
+          <img class="img-1" src="../../../assets/pesquisa.png">
+        </div>
       </div>
     </div>
   </section>
   <!--SOBRE-->
   <section class="sobre" id="sobre">
-    <container>
-      <h1 class="heading-2">Sobre-Nós</h1>
-      <div class="parallax" style="height: 300px;">
-        <p class="p-2">
-          O Quis vocacional são perguntas com alternativas para escolha, as perguntas são de<br>
-          suas Competências, gostos, personalidade, características, etc. tudo para<br>
-          conseguirmos um resultado Positivo para sua experiência! a diferença dos tradicionais<br>
-          e que oferecemos um quiz eficaz e que leve menos tempo para conclui-o sendo assim<br>
-          mais objetivo. A metodologia usada no quis é a inteligências múltiplas de Howard<br>
-          Gardner que por meios das suas resposta descobre o tipo de inteligência sua e formula<br>
-          indicações das áreas de profissão em si.<br>
-        </p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="heading-2">Sobre-Nós</h1>
+        </div>
       </div>
-    </container>
+    </div>
+    <div class="container-fluid parallax">
+      <div class="row">
+        <div class="col-12">
+          <p class="paragrafo-2">
+            O Quis vocacional são perguntas com alternativas para escolha, as perguntas são de<br>
+            suas Competências, gostos, personalidade, características, etc. tudo para<br>
+            conseguirmos um resultado Positivo para sua experiência! a diferença dos tradicionais<br>
+            e que oferecemos um quiz eficaz e que leve menos tempo para conclui-o sendo assim<br>
+            mais objetivo. A metodologia usada no quis é a inteligências múltiplas de Howard<br>
+            Gardner que por meios das suas resposta descobre o tipo de inteligência sua e formula<br>
+            indicações das áreas de profissão em si.<br>
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
   <!--GUIA-->
   <section class="guia" id="guia">
-    <container>
+    <div class="container">
       <div class="row alinhamento">
-        <div class="col-md-4" style="margin-top: 50px;">
+       
+        <div class="col-md-6" style="margin-top: 50px;">
           <h1 class="heading-1">Guia</h1>
           <p class="p-1">
             Aqui no Guia vamos te informar tudo que<br>
@@ -188,44 +200,47 @@
             e funcinalidade do quis em geral .
           </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
           <img class="img-1" src="../../../assets/doc.png">
         </div>
       </div>
+      <div class="row">
+        <div class="col-12">
+          <p class="p-dica">
+            <strong class="dicas">Dica#1:</strong>
+            <stong><b>Seja sincero e honesto com você mesmo!</b><br></stong>
+            Se não ser fica complicado formular indicações de areas profissionais mais valida<br>
+            para voce pois forneceu informações que não condizem com o resultado final sendo<br>
+            uma experiencia frustante.<br>
+          </p>
 
-      <p class="p-dica" style="margin-top: 100px;">
-        <strong class="dicas">Dica#1:</strong>
-        <stong><b>Seja sincero e honesto com você mesmo!</b><br></stong>
-        Se não ser fica complicado formular indicações de areas profissionais mais valida<br>
-        para voce pois forneceu informações que não condizem com o resultado final sendo<br>
-        uma experiencia frustante.<br>
-      </p>
+          <p class="p-dica">
+            <strong class="dicas">Dica#2:</strong>
+            <stong><b>Escolhar o melhor ambiente e faça o quiz com atenção e foco.</b><br></stong>
+            É importante ter um lugar onde voce consiga ter total atenção para fazer<br>
+            o quiz pois é um momento só seu ali nessa situação.<br>
+          </p>
 
-      <p class="p-dica">
-        <strong class="dicas">Dica#2:</strong>
-        <stong><b>Escolhar o melhor ambiente e faça o quiz com atenção e foco.</b><br></stong>
-        É importante ter um lugar onde voce consiga ter total atenção para fazer<br>
-        o quiz pois é um momento só seu ali nessa situação.<br>
-      </p>
+          <p class="p-dica">
+            <strong class="dicas">Dica#3:</strong>
+            <stong><b>Pesquise e aprenda mais de você mesmo!</b><br></stong>
+            Após fazer o quis e ver os resultados, com base neles pesquise o que ele te forneceu ali<br>
+            de indicações de areas de profissão parater mais informação a respeito ajudando na escolha.<br>
+            e bom também estudar mais sobre você mesmo como: seus gostos, competencias, incompetencias, etc.<br>
+            sendo mais facil, melhor e mais pratico no processode escolher sua profissão ou algo do tipo.<br>
+          </p>
 
-      <p class="p-dica">
-        <strong class="dicas">Dica#3:</strong>
-        <stong><b>Pesquise e aprenda mais de você mesmo!</b><br></stong>
-        Após fazer o quis e ver os resultados, com base neles pesquise o que ele te forneceu ali<br>
-        de indicações de areas de profissão parater mais informação a respeito ajudando na escolha.<br>
-        e bom também estudar mais sobre você mesmo como: seus gostos, competencias, incompetencias, etc.<br>
-        sendo mais facil, melhor e mais pratico no processode escolher sua profissão ou algo do tipo.<br>
-      </p>
+          <p class="p-obs">
+            <strong class="dicas">Observação:</strong><br>
+            Caso tenha alguma deficiência fisica ou mental que impossibilite de usufruir do conteúdo<br>
+            inteiro do site recomendamos que tenha uma pessoa te auxiliando para poder então aproveitar o site em si.
+            aproveite então que chegou até aqui, já bem informado<b>
+              <br>e faça então o quiz logo no botão aqui em baixo e claro, e que tenha uma boa experiencia!</b><br>
+          </p>
+        </div>
+      </div>
 
-      <p class="p-obs">
-        <strong class="dicas">Observação:</strong><br>
-        Caso tenha alguma deficiência fisica ou mental que impossibilite de usufruir do conteúdo<br>
-        inteiro do site recomendamos que tenha uma pessoa te auxiliando para poder então aproveitar o site em si.
-        aproveite então que chegou até aqui, já bem informado<b>
-          <br>e faça então o quiz logo no botão aqui em baixo e claro, e que tenha uma boa experiencia!</b><br>
-      </p>
-
-    </container>
+    </div>
   </section>
   <!--MODAL-QUIZ-->
   <div class="modal" id="modalQuiz">
@@ -265,37 +280,50 @@
     </div>
   </div>
   <!--QUIZ-->
-  <div class="botão-quiz">
-    <container>
-      <h1 class="titulo-quiz">Faça ja o nosso quiz!</h1>
-      <a href="#" class="button w-button" data-toggle="modal" data-target="#modalQuiz">INICIAR QUIZ</a>
-      <img class="img-botão" src="../../../assets/analisando.png">
-    </container>
+  <div class="botao-quiz">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="titulo-quiz">Faça ja o nosso quiz!</h1>
+          <a href="#" class="button w-button" data-toggle="modal" data-target="#modalQuiz">INICIAR QUIZ</a>
+          <img class="img-botao" src="../../../assets/analisando.png">
+        </div>
+      </div>
+    </div>
   </div>
   <!--CONTATO/RODAPÉ-->
-  <footer class="rodapé" id="rodape">
-  </footer>
-  <container>
-    <h3 class="h-rodapé">Contato</h3>
-    <h6 class="h-rodapé-2">Email: xxxxxxxxxxxxxx@xxxx.xxx</h6>
-    <section class="icones-posição">
-      <ul class="social-icons">
-        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a class="whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
-      </ul>
-    </section>
-  </container>
-  <h4 class="h-rodapé-3"> |  Mapa do Site</h4>
-  <h6 class="h-rodapé-4">Bem Vindo<br>Sobre<br>Guia<br>Quiz<br>Contato<br></h6>
-  <h4 class="h-rodapé-5">|  Localização</h4>
-  <h6 class="h-rodapé-6">Barretos<br>São Paulo<br>Brasil.</h6>
-  <!--PARCIAL-->
-  <footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <footer class="rodape" id="rodape">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 text-center text-lg-left">
+          <h3 class="h-rodape">Contato</h3>
+          <h6 class="h-rodape-2">Email: xxxxxxxxxxxxxx@xxxx.xxx</h6>
+          <section class="icones-posição">
+            <ul class="social-icons pb-4 pb-lg-0">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="whatsapp" href="#"><i class="fa fa-whatsapp"></i></a></li>
+            </ul>
+          </section>
+        </div>
+        <div class="col-12 col-lg-6 text-center text-lg-right d-lg-flex align-items-lg-start justify-content-lg-end">
+          <div class="d-lg-inline-block pb-4 pb-lg-0 pr-lg-4">
+            <h4 class="h-rodape-3">
+              <div class="d-none d-lg-inline">|</div> Mapa do Site
+            </h4>
+            <h6 class="h-rodape-4">Bem Vindo<br>Sobre<br>Guia<br>Quiz<br>Contato<br></h6>
+          </div>
+          <div class="d-lg-inline-block">
+            <h4 class="h-rodape-5">
+              <div class="d-none d-lg-inline">|</div> Localização
+            </h4>
+            <h6 class="h-rodape-6">Barretos<br>São Paulo<br>Brasil.</h6>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </footer>
+  <!--PARCIAL-->
 </body>
 </html>

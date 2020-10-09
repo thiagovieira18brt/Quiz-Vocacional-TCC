@@ -14,11 +14,11 @@
 }
 /* CONFIGURAÇÕES GERAIS */
 body {
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-family: 'Poppins', Helvetica, Arial, sans-serif;
 	line-height: 24px;
-  font-weight: 400;
-  color: #212112;
+	font-size: 16px;
+	font-weight: 400;
+	color: #212112;
 }
 ::selection {
 	color: var(--white-color);
@@ -28,9 +28,12 @@ body {
 	color: var(--white-color);
 	background-color: var(--primary-color);
 }
+button:focus{
+	outline: none !important;
+}
 /*home*/
 .bemvindo{
-	padding-top: 120px;
+	padding-top: 60px;
 }
 .alinhamento {
 	justify-content: center;
@@ -38,19 +41,16 @@ body {
 }
 /*sobre*/
 .sobre{
-	margin-top:150px;
+	margin-top: 60px;
 	text-align: center;
 }
 /*guia*/
 .guia{
-	margin-top:150px;
-	height:1200px;
+	margin-top: 60px;
 }
 /*conteudo da parte do dicas do guia*/
 .dicas{
 	font-weight:700;
-	size: 250px;
-	height:100px;
 	color:#36b5d4;
 	text-align: left;
 	
@@ -85,11 +85,9 @@ body {
 	color:#545454;
 	word-break: keep-all;
 }
-.p-2 {
+.paragrafo-2 {
 	text-align:center;
 	color:white;
-	size:20px;
-	height:20px;
 	font-weight: 600;
 }
 .img-1 {
@@ -110,17 +108,13 @@ body {
 		margin-bottom:30px;
 
 	}
-	.p-2{
+	.paragrafo-2{
 		text-align:center;
-		margin-top:-50px;
 		color:white;
-		size:10px;
-		height:10px;
 		font-weight: 600;
 	}
 	.guia{
-		margin-top:150px;
-		height:1200px;
+		margin-top: 0px;
 	}
 	.p-1{
 		font-weight:600;
@@ -131,11 +125,9 @@ body {
 		height:auto;
 		margin-left:20px;
 	}
-	/*botão do quiz*/
-    .botão-quiz{
+    .botao-quiz{
 	text-align: center;
 	align-items: center;
-	margin: 100px 50px -100px 50px;
     }
     .button {
     width: 200px;
@@ -157,72 +149,49 @@ body {
     text-decoration: none;
     cursor: pointer;
 	border-radius: 0;
-	margin: 100px -50px 100px 50px;
-    }
+	}
     .titulo-quiz{
 	text-align: center;
 	color:#545454;
 	font-weight: 900;
-	margin: -100px 50px -10px 50px;
     }
-    .img-botão{
+    .img-botao{
 	width: 450px;
 	max-width: 500;
-	margin: 100px 50px -10px 50px;
 	}
 	/*RODAPÉ RESPONSIVO*/
-	.rodapé{
+	.rodape{
 		background-color:#545454;
-		height:250px;
 		width: auto;
 	}
-	.h-rodapé{
+	.h-rodape{
 		font-weight: 600;
-		size:20px;
-		height:44px;
-		margin-top:-220px;
-		text-align: left;
 		color: white;
 		background-color: #545454;
 	}
-	.h-rodapé-2{
+	.h-rodape-2{
 		font-weight: 600;
-		size:20px;
-		height:44px;
-		text-align: left;
 		color: white;
 		background-color: #545454;
 	}
-	.h-rodapé-3{
+	.h-rodape-3{
 		font-weight: 600;
-		size: 20px;
-		height:40px;
-		text-align: right;
 		color: white;
 		background-color: #545454;
 	}
-	.h-rodapé-4{
+	.h-rodape-4{
 		font-weight: 600;
-		size:20px;
-		height:44px;
-		text-align: right;
 		color:white;
 		background-color:#545454;
 	}
-	
-	.h-rodapé-5{
+	.h-rodape-5{
 		font-weight: 600;
-		size: 20px;
-		height:40px;
-		text-align: right;
 		color: white;
 		background-color: #545454;
 	}
-	.h-rodapé-6{
+
+	.h-rodape-6{
 		font-weight: 600;
-		size:20px;
-		height:44px;
-		text-align: right;
 		color:white;
 		background-color:#545454;
 	}
@@ -236,7 +205,6 @@ body {
 	margin-top:-300px;
 }
 .icones{
-	size:40px;
 	height:40px;
 	max-width:100%;
 	margin-right:15px;
@@ -250,83 +218,52 @@ body {
     text-decoration-style: initial;
 	text-decoration-color: initial;
 }
-#header-text {
-	margin: -400px 0 400px 0;
-}
-.rodapé{
+.rodape{
 	background-color:#545454;
-	height:250px;
 	width: auto;
-	margin-top:-100px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
-.h-rodapé{
+.h-rodape{
 	font-weight: 600;
-	size:20px;
-	height:44px;
-	margin-top:-220px;
-	text-align: left;
 	color: white;
 	background-color: #545454;
-	margin-left:150px;
 }
-.h-rodapé-2{
+.h-rodape-2{
 	font-weight: 600;
-	size:20px;
-	height:44px;
 	margin-top:30px;
-	text-align: left;
-	color: white;
-	background-color: #545454;
-	margin-left:150px;
-}
-.h-rodapé-3{
-	font-weight: 600;
-	size: 20px;
-	height:40px;
-	margin-top:-165px;
-	margin-right:100px;
-	text-align: right;
 	color: white;
 	background-color: #545454;
 }
-.h-rodapé-4{
+.h-rodape-3{
 	font-weight: 600;
-	size:20px;
-	height:44px;
+	color: white;
+	background-color: #545454;
+}
+.h-rodape-4{
+	font-weight: 600;
 	margin-top:10px;
-	margin-right:100px;
-	text-align: right;
 	color:white;
 	background-color:#545454;
 }
-
-.h-rodapé-5{
+.h-rodape-5{
 	font-weight: 600;
-	size: 20px;
-	height:40px;
-	margin-top:-102px;
-	margin-right:270px;
-	text-align: right;
 	color: white;
 	background-color: #545454;
 }
-.h-rodapé-6{
+.h-rodape-6{
 	font-weight: 600;
-	size:20px;
-	height:44px;
 	margin-top:10px;
-	margin-right:270px;
-	text-align: right;
 	color:white;
 	background-color:#545454;
 }
 
 /*botão do quiz*/
-.botão-quiz{
+.botao-quiz{
 	text-align: center;
 	align-items: center;
-	margin-top: 100px;
-	margin-bottom: 400px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 .button {
     width: 200px;
@@ -348,36 +285,32 @@ body {
     text-decoration: none;
     cursor: pointer;
 	border-radius: 0;
-	margin: 100px -50px 100px 150px;
 }
 .titulo-quiz{
 	text-align: center;
 	color:#545454;
 	font-weight: 900;
-	margin: 100px 50px -100px 50px;
+	margin-bottom: 40px;
 }
-.img-botão{
+
+.img-botao{
 	width: 450px;
 	max-width: 500;
-	margin:100px 50px -10px 50px;
 }
 
 /*icones redes sociais animado*/
-
 /*alinhamento dos icones*/
-.icones-posição{
-	margin-left:150px;
-}
 
 .site-footer .social-icons {
 	text-align: right
   }
+ 
   .site-footer .social-icons a {
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
-	margin-left: 6px;
-	margin-right: 0;
+	margin-left: 3px;
+	margin-right: 3px;
 	border-radius: 100%;
 	background-color: #33353d
   }
@@ -388,7 +321,7 @@ body {
 	.site-footer .copyright-text,.site-footer .social-icons {
 	  text-align: center
 	}
-	.img-botão{
+	.img-botao{
 		width: 300px;
 		max-width: 300;
 	}
@@ -397,47 +330,47 @@ body {
   .social-icons {
 	padding-left: 0;
 	margin-bottom: 0;
-	list-style: none
+	list-style: none;
   }
   .social-icons li {
 	display: inline-block;
-	margin-bottom: 4px
+	font-size: 13px;
+	margin-bottom: 4px;
   }
   .social-icons li.title {
 	margin-right: 15px;
 	text-transform: uppercase;
 	color: #96a2b2;
 	font-weight: 700;
-	font-size: 13px
   }
   .social-icons a {
 	background-color: #eceeef;
 	color: #818a91;
-	font-size: 16px;
 	display: inline-block;
 	line-height: 44px;
+	font-size: 16px;
 	width: 44px;
 	height: 44px;
 	text-align: center;
-	margin-right: 8px;
+	margin-right: 4px;
+	margin-left: 4px;
 	border-radius: 100%;
 	-webkit-transition: all .2s linear;
 	-o-transition: all .2s linear;
-	transition: all .2s linear
+	transition: all .2s linear;
   }
   .social-icons a:active,.social-icons a:focus,.social-icons a:hover {
 	color:#fff;
 	background-color:#29aafe
   }
-  
   .social-icons a.whatsapp:hover {
-	background-color:#008641
+	background-color:#008641;
   }
-  .social-icons.size-sm a {
+  .social-icons.size-sm a{
+	font-size: 14px;
 	line-height: 34px;
 	height: 34px;
 	width: 34px;
-	font-size: 14px
   }
   .social-icons a.facebook:hover {
 	background-color: #3b5998
@@ -570,16 +503,18 @@ body {
 	.nav-item:after{
 		display: none;
 	}
+	/*bolinha do menu:*/
 	.nav-item::before {
 		position: absolute;
 		display: block;
-		top: 15px;
+		top: 12px;
 		left: 0;
-		width: 11px;
-		height: 1px;
+		width: 10px;
+		height: 10px;
 		content: "";
 		border: none;
-		background-color: var(--black-color);
+		border: 1px solid var(--black-color);
+		border-radius: 10px;
 	}
 	.alinhamento {
 		text-align: center;
@@ -587,13 +522,31 @@ body {
 }
 
 /* PARALLAX */
-.parallax {
-  padding-top: 70px;
-  width: 100%;
-  height:700px;
-  background-image: url("../../../assets/homeParallax.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
+
+.parallax,
+
+.parallax-header {
+	width: 100%;
+	background-image: url("../../../assets/homeParallax.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+.parallax{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.parallax-header{
+	padding-top: 280px;
+	padding-bottom: 200px;
+}
+/*
+Criei essa regra mobile pra diminuir um pouco esse parallax no mobile diminuindo assim a quantidade de rolagem no site o que melhora a sua navegação
+*/
+@media(max-width: 767.8px){
+	.parallax-header{
+		padding-top: 160px;
+		padding-bottom: 80px;
+	}
 }
